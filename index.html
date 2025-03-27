@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <style>
+            body.dark{
+                color:cyan;
+                background: black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>pushkars story</h1>
+        <p id="story">my friend is hidden in the basement, I want to find him </p>
+        <button onclick="goDark()">Get in the mood</button>
+        <div class="t1">type your name if you dare
+    <input type="text" id="name">
+        </div>
+        <button onclick="b1()">please please dont click name
+
+        </button>
+        <button onclick="b2()"> tell me what happened
+
+        </button>
+<script>
+    function goDark(){
+     document.body.className="dark";   
+    }
+    function b1(){
+        var n=document.getElementById("name").value;
+        alert("i told you dont click"+n)
+    }
+</script>
+    </body>
+</html>
